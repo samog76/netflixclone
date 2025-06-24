@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body bgcolor="black">
+
+<div class="media-container">
+        <img id="preview" src="pics/p-1-it-is-time-to-forgive-and8216rick-and-mortyand8217-for-its-toxic-fandom.webp" >
+        <div class="image-gradient"></div>
+        <div class="img-butt"></div>
+        <video id="video" src="videos/Rick.and.Morty.S05E02.720p.AMZN.WEBRip.x264-GalaxyTV.mkv" autoplay muted loop></video>
+        <div class="vid-gradient"></div>
+        <div class="vid-butt"></div>
+    </div>
+    <!-- <div style="position: relative; display: inline-block; width: 100%;">
+        <img id="preview" src="pics/p-1-it-is-time-to-forgive-and8216rick-and-mortyand8217-for-its-toxic-fandom.webp"
+            onmouseover="swapVideo()" onmouseout="swapImage()">
+        <video id="video" src="videos/Rick.and.Morty.S05E02.720p.AMZN.WEBRip.x264-GalaxyTV.mkv"  autoplay muted loop 
+            style="display: none;"></video>
+    </div> -->
+    
+    
+    <!-- <img class="homepic1" src="pics/p-1-it-is-time-to-forgive-and8216rick-and-mortyand8217-for-its-toxic-fandom.webp" alt=""> -->
+    <header style="display: flex; align-items: center; padding: 0 10px;">
+        <a href="home.html"><img class="Logo" src="pics/Netflix_Logo_RGB.png" alt="Netflix Logo" style="height: 50px;"></a>
+        <nav class="nav">
+            <ul style="list-style: none; display: flex; gap: 15px; padding: 0; margin: 0; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <li><a href="home.html" style="text-decoration: none; color: white;">Home</a></li>
+                <li><a href="tv-shows.html" style="text-decoration: none; color: white;">TV Shows</a></li>
+                <li><a href="movies.html" style="text-decoration: none; color: white;">Movies</a></li>
+                <li><a href="games.html" style="text-decoration: none; color: white;">Games</a></li>
+                <li><a href="new-popular.html" style="text-decoration: none; color: white;">New & Popular</a></li>
+                <li><a href="my-list.html" style="text-decoration: none; color: white;">My List</a></li>
+                <li><a href="browse-language.html" style="text-decoration: none; color: white;">Browse by Language &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li> <div class="search" style="position: relative;">
+                    <input type="text" placeholder="🔍︎"
+                        style="width: 30px; height: 30px; padding: 5px; color: white; border: none; background: none; outline: white; cursor: pointer; transition: width 0.3s ease, left 0.3s ease; color: white; position: absolute; right: 0;"
+                        onfocus="this.style.width='200px'; this.style.border='1px solid white'; this.style.background='black';"
+                        onblur="this.style.width='15px'; this.style.border='none'; this.style.background='none';">
+                </div>
+                </li>
+                <li><div class="dropdown">
+                    <span class="dropdown-icon">🕭</span>
+                    <div class="dropdown-menu">
+                        <a href="#">Notification 1</a>
+                        <a href="#">Notification 2</a>
+                        <a href="#">Notification 3</a>
+                    </div>
+                </div>
+                </li>
+                <li>
+                    <!-- Custom Dropdown Menu -->
+<div class="custom-dropdown" id="customDropdown">
+    <img src="pics/log.png" alt="Menu Icon" class="custom-trigger-img" id="dropdownTrigger">
+    <div class="custom-menu" id="dropdownMenu">
+      <a href="#">Dashboard</a>
+      <a href="#">Settings</a>
+      <a href="login.html">Log Out</a>
+    </div>
+  </div>
+  
+                </li>
+            </ul>
+           
+        </nav>
+    </header>
+    <img class="title" src="pics/AAAABbeIxhC7b01_78pf4Rv8OH5wMXxjSnKmsqBoiwAZEbsXrf9Bmaus4llrcOSDh51K-Vle02Tg6aFwhIuCo5DxLF61qX-n_-Ovmsxj5NMWWvE.png" alt="">
+    <div class="butt" style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;"></div>
+        <button class="butt1" style="background-color: white; color: black; border: none; padding: 10px 40px; font-size: 20px;font-weight: bold; cursor: pointer; border-radius: 5px;">▶&nbsp;&nbsp;Play</button>
+        <button class="butt2" style="background-color: gray; color: white; border: none; padding: 10px 40px; font-size: 23px;font-weight: bold; cursor: pointer; border-radius: 5px;">ⓘ&nbsp;More Info</button>
+    </div>
+    <div class="continue">
+        <h5>Continue watching for Gbeminiyi</h5>
+        <div class="slider-wrapper">
+            <button class="slide-btn Left" id="btnLeft">‹</button>
+          
+            <div class="slider-container" id="sliderContainer">
+              <div class="slider">
+                <div class="slide"><div class="imgcon1"><img src="pics/Screenshot 2025-04-30 103800.png" alt=""></div> </div>
+                <div class="slide"><div class="imgcon2"><img src="pics/Screenshot 2025-04-30 103816.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon3"><img src="pics/Screenshot 2025-04-30 103827.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon4"><img src="pics/Screenshot 2025-04-30 103952.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon5"><img src="pics/Screenshot 2025-04-30 103854.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon6"><img src="pics/Screenshot 2025-04-30 103903.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon7"><img src="pics/Screenshot 2025-04-30 103915.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon8"><img src="pics/Screenshot 2025-04-30 103920.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon9"><img src="pics/Screenshot 2025-04-30 103932.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon10"><img src="pics/Screenshot 2025-04-30 103939.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon11"><img src="pics/Screenshot 2025-04-30 103944.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon12"><img src="pics/Screenshot 2025-04-30 103952.png" alt=""></div></div>
+                <div class="slide"><div class="imgcon13"><img src="pics/Screenshot 2025-04-30 104005.png" alt=""></div></div>
+                <!-- Add more slides -->
+              </div>
+            </div>
+            <button class="slide-btn right" id="btnRight">›</button>
+          </div>
+          
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const slider = document.querySelector('.slider');
+                const slides = slider.querySelectorAll('.slide');
+                const btnLeft = document.getElementById('btnLeft');
+                const btnRight = document.getElementById('btnRight');
+            
+                const slideCount = slides.length;
+                const slideWidth = slides[0].offsetWidth + 10; // Adjust if there's extra margin
+            
+                // Clone first few slides to the end
+                for (let i = 0; i < 11; i++) {
+                    const clone = slides[i].cloneNode(true);
+                    slider.appendChild(clone);
+                }
+            
+                let currentIndex = 0;
+            
+                function moveSlider() {
+                    slider.style.transition = 'transform 0.5s ease';
+                    slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                }
+            
+                btnRight.addEventListener('click', () => {
+                    currentIndex++;
+                    moveSlider();
+            
+                    // Seamless reset after transition
+                    if (currentIndex === slideCount) {
+                        setTimeout(() => {
+                            slider.style.transition = 'none';
+                            currentIndex = 0;
+                            slider.style.transform = `translateX(0)`;
+                        }, 500); // Match transition duration
+                    }
+                });
+            
+                btnLeft.addEventListener('click', () => {
+                    if (currentIndex === 0) {
+                        slider.style.transition = 'none';
+                        currentIndex = slideCount;
+                        slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                        setTimeout(() => {
+                            slider.style.transition = 'transform 0.5s ease';
+                            currentIndex--;
+                            moveSlider();
+                        }, 20);
+                    } else {
+                        currentIndex--;
+                        moveSlider();
+                    }
+                });
+            });
+            const trigger = document.getElementById("dropdownTrigger");
+  const menu = document.getElementById("dropdownMenu");
+  const dropdown = document.getElementById("customDropdown");
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation(); // Prevent click from bubbling to body
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!dropdown.contains(e.target)) {
+      menu.style.display = "none";
+    }
+  });
+            </script>
+            
+            
+</body>
+</html>

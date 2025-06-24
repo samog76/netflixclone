@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Login</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: url("pics/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv.jpg") center center / cover no-repeat;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    .login-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      background: #33333334;
+      border: 1px solid #444;
+      color: white;
+      border-radius: 4px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background-color: #e50914;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .login-container .signin-button {
+  background-color: #e50914; 
+}
+
+
+.login-container .alt-button {
+  background-color: #5555556d; 
+}
+
+    .separator {
+      text-align: center;
+      margin: 10px 0;
+      color: gray;
+    }
+
+    .alt-button {
+      background: #44444443;
+      margin-bottom: 15px;
+background-color: #444;
+    }
+
+    .login-container a {
+      color: #b3b3b3;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+
+    .remember-me {
+      display: flex;
+      align-items: center;
+      margin: 15px 0;
+      font-size: 0.9em;
+    }
+
+    .signup {
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    .signup a {
+      color: white;
+      font-weight: bold;
+    }
+
+    .captcha-note {
+      font-size: 0.75em;
+      color: gray;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="login-container">
+    <h2>Sign In</h2>
+    <input type="text" placeholder="Email or mobile number" />
+    <input type="password" placeholder="Password" />
+<a href="home.html"><button>Sign In</button></a>
+
+    <div class="separator">OR</div>
+    <button class="alt-button">Use a Sign-In Code</button>
+
+    <div style="margin-bottom: 10px;">
+      <a href="#">Forgot password?</a>
+    </div>
+
+    <div class="remember-me">
+      <input type="checkbox" id="remember" checked />
+      <label for="remember" style="margin-left: 8px;">Remember me</label>
+    </div>
+
+    <div class="signup">
+      New to Netflix? <a href="#">Sign up now.</a>
+    </div>
+
+    <div class="captcha-note">
+      This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
+    </div>
+  </div>
+</body>
+</html>
